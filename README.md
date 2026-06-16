@@ -23,7 +23,58 @@ The infrastructure was designed using core AWS networking, compute, database, mo
 
 ## Architecture
 
-Architecture diagram will be added here.
+The infrastructure consists of:
+
+- VPC for network isolation
+- Public and Private Subnets
+- Internet Gateway for public access
+- NAT Gateway for outbound internet access from private subnets
+- Application Load Balancer for traffic distribution
+- Auto Scaling Group for high availability
+- Amazon RDS for database storage
+- CloudWatch for monitoring
+- SNS for alert notifications
+
+## Implementation Screenshots
+
+### VPC Creation
+![VPC Creation](VPC%20creation.png)
+
+### Subnet Creation
+![Subnet Creation](Subnet%20creation.png)
+
+### Internet Gateway
+![Internet Gateway](IGW%20creation.png)
+
+### NAT Gateway
+![NAT Gateway](NATgw%20creation.png)
+
+### Security Groups
+![Security Groups](SG%20creation.png)
+
+### Launch Template
+![Launch Template](Launch%20Template.png)
+
+### Target Group
+![Target Group](TG%20creation.png)
+
+### Load Balancer
+![Load Balancer](LB%20creation.png)
+
+### Auto Scaling Group
+![Auto Scaling Group](AS%20Group.png)
+
+### RDS Database
+![RDS Database](DB%20creation.png)
+
+### SNS Topic
+![SNS Topic](SNS%20Topic.png)
+
+### CloudWatch Alarms
+![CloudWatch Alarms](Threshold%20Alarms.png)
+
+### Final Website Output
+![Website Output](Sample%20Website%20Hosted.png)
 
 ## Project Objectives
 
