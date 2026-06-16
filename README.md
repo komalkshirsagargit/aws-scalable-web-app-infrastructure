@@ -6,6 +6,22 @@ This project demonstrates the deployment of a scalable and highly available web 
 
 The infrastructure was designed using core AWS networking, compute, database, monitoring, and notification services to ensure availability, scalability, and operational visibility.
 
+## My Role
+
+I designed and deployed a scalable web application infrastructure on AWS as a cloud engineering project.
+
+The project focused on:
+
+- Designing a secure VPC architecture
+- Creating public and private subnets
+- Configuring Internet and NAT Gateways
+- Deploying scalable compute resources using Launch Templates and Auto Scaling Groups
+- Configuring an Application Load Balancer
+- Setting up an Amazon RDS database
+- Monitoring infrastructure using CloudWatch
+- Creating SNS notifications for operational alerts
+
+This project helped me gain hands-on experience with AWS networking, compute, monitoring, database, and high-availability concepts.
 ## AWS Services Used
 
 - Amazon VPC
